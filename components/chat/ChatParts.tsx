@@ -8,20 +8,21 @@ import type { ChatAction, ProductCard } from "@/lib/types";
 import { ProductImage } from "../ProductImage";
 import { AddToCartButton } from "../StoreUI";
 
-/** Tiny Markdown subset: **bold**, "- " bullets, "1. " lists, line breaks. */
+/** Tiny Markdown subset: **bold**, *italic*, "-"/"*" bullets, "1." lists, line breaks. */
+const LIST_RX = /^\s*([-*•]|\d+\.)\s+/;
 export function RichText({ text }: { text: string }) {
   const blocks = text.split(/\n{2,}/);
   return (
     <div className="space-y-2">
       {blocks.map((block, bi) => {
         const lines = block.split("\n");
-        const isList = lines.every((l) => /^\s*(-|\d+\.)\s/.test(l));
+        const isList = lines.every((l) => LIST_RX.test(l));
         if (isList) {
           const ordered = /^\s*\d+\./.test(lines[0]);
           const Tag = ordered ? "ol" : "ul";
           return (
             <Tag key={bi} className={`${ordered ? "list-decimal" : "list-disc"} space-y-1 pl-4`}>
-              {lines.map((l, li) => <li key={li}>{inline(l.replace(/^\s*(-|\d+\.)\s/, ""))}</li>)}
+              {lines.map((l, li) => <li key={li}>{inline(l.replace(LIST_RX, ""))}</li>)}
             </Tag>
           );
         }
@@ -29,8 +30,8 @@ export function RichText({ text }: { text: string }) {
           <p key={bi}>
             {lines.map((l, li) => (
               <span key={li}>
-                {/^\s*(-|\d+\.)\s/.test(l) ? <span className="block pl-2">• {inline(l.replace(/^\s*(-|\d+\.)\s/, ""))}</span> : inline(l)}
-                {li < lines.length - 1 && !/^\s*(-|\d+\.)\s/.test(l) && <br />}
+                {LIST_RX.test(l) ? <span className="block pl-2">• {inline(l.replace(LIST_RX, ""))}</span> : inline(l)}
+                {li < lines.length - 1 && !LIST_RX.test(l) && <br />}
               </span>
             ))}
           </p>
@@ -41,8 +42,10 @@ export function RichText({ text }: { text: string }) {
 }
 
 function inline(s: string) {
-  return s.split(/(\*\*[^*]+\*\*)/g).map((part, i) =>
-    part.startsWith("**") && part.endsWith("**") ? <strong key={i} className="font-semibold">{part.slice(2, -2)}</strong> : <span key={i}>{part}</span>,
+  return s.split(/(\*\*[^*]+\*\*|\*[^*\s][^*]*\*)/g).map((part, i) =>
+    part.startsWith("**") && part.endsWith("**") ? <strong key={i} className="font-semibold">{part.slice(2, -2)}</strong>
+    : part.length > 2 && part.startsWith("*") && part.endsWith("*") ? <em key={i}>{part.slice(1, -1)}</em>
+    : <span key={i}>{part}</span>,
   );
 }
 
