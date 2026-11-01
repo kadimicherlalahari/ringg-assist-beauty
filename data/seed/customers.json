@@ -1,0 +1,82 @@
+[
+  {
+    "customer_id": "C-101",
+    "name": "Priya Sharma",
+    "phone": "+91 98450 11201",
+    "city": "Bengaluru",
+    "city_tier": "Metro",
+    "preferred_language": "English"
+  },
+  {
+    "customer_id": "C-102",
+    "name": "Ankit Verma",
+    "phone": "+91 99001 22302",
+    "city": "Lucknow",
+    "city_tier": "Tier 2",
+    "preferred_language": "Hinglish"
+  },
+  {
+    "customer_id": "C-103",
+    "name": "Sneha Reddy",
+    "phone": "+91 90008 33403",
+    "city": "Hyderabad",
+    "city_tier": "Metro",
+    "preferred_language": "English"
+  },
+  {
+    "customer_id": "C-104",
+    "name": "Pooja Yadav",
+    "phone": "+91 98765 44504",
+    "city": "Indore",
+    "city_tier": "Tier 2",
+    "preferred_language": "Hindi"
+  },
+  {
+    "customer_id": "C-105",
+    "name": "Rahul Nair",
+    "phone": "+91 97400 55605",
+    "city": "Kochi",
+    "city_tier": "Tier 2",
+    "preferred_language": "English"
+  },
+  {
+    "customer_id": "C-106",
+    "name": "Meera Joshi",
+    "phone": "+91 98220 66706",
+    "city": "Pune",
+    "city_tier": "Tier 1",
+    "preferred_language": "Hinglish"
+  },
+  {
+    "customer_id": "C-107",
+    "name": "Fatima Khan",
+    "phone": "+91 99300 77807",
+    "city": "Bhopal",
+    "city_tier": "Tier 2",
+    "preferred_language": "Hinglish"
+  },
+  {
+    "customer_id": "C-108",
+    "name": "Kavya Iyer",
+    "phone": "+91 98840 88908",
+    "city": "Chennai",
+    "city_tier": "Metro",
+    "preferred_language": "English"
+  },
+  {
+    "customer_id": "C-109",
+    "name": "Ritu Singh",
+    "phone": "+91 94150 99009",
+    "city": "Gorakhpur",
+    "city_tier": "Tier 3",
+    "preferred_language": "Hindi"
+  },
+  {
+    "customer_id": "C-110",
+    "name": "Aditi Patel",
+    "phone": "+91 98250 10110",
+    "city": "Surat",
+    "city_tier": "Tier 2",
+    "preferred_language": "Hinglish"
+  }
+]

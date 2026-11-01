@@ -1,0 +1,392 @@
+[
+  {
+    "order_id": "VB1041",
+    "customer_id": "C-101",
+    "order_date": "2026-10-29",
+    "payment_mode": "Prepaid",
+    "status": "Shipped",
+    "items": [
+      {
+        "product_id": "VB-004",
+        "name": "Kumkumadi Vitamin C Glow Serum",
+        "qty": 1,
+        "price_inr": 749
+      },
+      {
+        "product_id": "VB-007",
+        "name": "Ultra-Light Sunscreen SPF 50 PA++++",
+        "qty": 1,
+        "price_inr": 499
+      }
+    ],
+    "subtotal_inr": 1248,
+    "shipping_inr": 0,
+    "cod_fee_inr": 0,
+    "total_inr": 1248,
+    "courier": "Delhivery",
+    "awb": "DLV7712301",
+    "expected_delivery": "2026-11-03",
+    "status_note": "In transit, reached Bengaluru hub",
+    "delivered_on": null
+  },
+  {
+    "order_id": "VB1042",
+    "customer_id": "C-102",
+    "order_date": "2026-10-24",
+    "payment_mode": "COD",
+    "status": "Delayed",
+    "items": [
+      {
+        "product_id": "VB-017",
+        "name": "Acne Control Kit (Face Wash + Niacinamide + Gel Moisturiser + Spot Gel)",
+        "qty": 1,
+        "price_inr": 1399
+      }
+    ],
+    "subtotal_inr": 1399,
+    "shipping_inr": 0,
+    "cod_fee_inr": 49,
+    "total_inr": 1448,
+    "courier": "Ecom Express",
+    "awb": "ECX5523102",
+    "expected_delivery": "2026-10-30",
+    "status_note": "Was due 30 Oct; new expected date 4 Nov due to hub backlog",
+    "delivered_on": null
+  },
+  {
+    "order_id": "VB1043",
+    "customer_id": "C-103",
+    "order_date": "2026-10-25",
+    "payment_mode": "Prepaid",
+    "status": "Delivered",
+    "items": [
+      {
+        "product_id": "VB-005",
+        "name": "Ceramide Barrier Repair Moisturiser",
+        "qty": 1,
+        "price_inr": 549
+      }
+    ],
+    "subtotal_inr": 549,
+    "shipping_inr": 0,
+    "cod_fee_inr": 0,
+    "total_inr": 549,
+    "courier": "Blue Dart",
+    "awb": "BD8834103",
+    "expected_delivery": "2026-10-28",
+    "status_note": "Delivered 28 Oct, inside 7-day return window until 4 Nov",
+    "delivered_on": "2026-10-28"
+  },
+  {
+    "order_id": "VB1044",
+    "customer_id": "C-104",
+    "order_date": "2026-11-01",
+    "payment_mode": "COD",
+    "status": "Pending COD confirmation",
+    "items": [
+      {
+        "product_id": "VB-013",
+        "name": "Onion & Bhringraj Hair Oil",
+        "qty": 1,
+        "price_inr": 399
+      },
+      {
+        "product_id": "VB-014",
+        "name": "Rosemary & Biotin Anti-Hairfall Shampoo",
+        "qty": 1,
+        "price_inr": 449
+      }
+    ],
+    "subtotal_inr": 848,
+    "shipping_inr": 0,
+    "cod_fee_inr": 49,
+    "total_inr": 897,
+    "courier": null,
+    "awb": null,
+    "expected_delivery": "2026-11-06",
+    "status_note": "Placed, waiting for COD confirmation before dispatch",
+    "delivered_on": null
+  },
+  {
+    "order_id": "VB1045",
+    "customer_id": "C-105",
+    "order_date": "2026-10-25",
+    "payment_mode": "COD",
+    "status": "Delivery failed (NDR)",
+    "items": [
+      {
+        "product_id": "VB-003",
+        "name": "10% Niacinamide Clarifying Serum",
+        "qty": 1,
+        "price_inr": 599
+      },
+      {
+        "product_id": "VB-006",
+        "name": "Aloe & Green Tea Oil-Free Gel Moisturiser",
+        "qty": 1,
+        "price_inr": 449
+      }
+    ],
+    "subtotal_inr": 1048,
+    "shipping_inr": 0,
+    "cod_fee_inr": 49,
+    "total_inr": 1097,
+    "courier": "Delhivery",
+    "awb": "DLV7712345",
+    "expected_delivery": "2026-10-31",
+    "status_note": "Courier attempt on 31 Oct failed: customer not reachable. 1 more attempt left before return to origin",
+    "delivered_on": null
+  },
+  {
+    "order_id": "VB1046",
+    "customer_id": "C-106",
+    "order_date": "2026-11-01",
+    "payment_mode": "Prepaid",
+    "status": "Placed",
+    "items": [
+      {
+        "product_id": "VB-010",
+        "name": "0.3% Retinol Night Serum",
+        "qty": 1,
+        "price_inr": 799
+      }
+    ],
+    "subtotal_inr": 799,
+    "shipping_inr": 0,
+    "cod_fee_inr": 0,
+    "total_inr": 799,
+    "courier": null,
+    "awb": null,
+    "expected_delivery": "2026-11-05",
+    "status_note": "Order placed, not yet packed; can still be cancelled",
+    "delivered_on": null
+  },
+  {
+    "order_id": "VB1047",
+    "customer_id": "C-107",
+    "order_date": "2026-10-10",
+    "payment_mode": "Prepaid",
+    "status": "Delivered",
+    "items": [
+      {
+        "product_id": "VB-002",
+        "name": "Neem & Tea Tree Oil-Control Face Wash",
+        "qty": 1,
+        "price_inr": 299
+      }
+    ],
+    "subtotal_inr": 299,
+    "shipping_inr": 59,
+    "cod_fee_inr": 0,
+    "total_inr": 358,
+    "courier": "Ecom Express",
+    "awb": "ECX5523147",
+    "expected_delivery": "2026-10-14",
+    "status_note": "Delivered 14 Oct; return window closed on 21 Oct",
+    "delivered_on": "2026-10-14"
+  },
+  {
+    "order_id": "VB1048",
+    "customer_id": "C-108",
+    "order_date": "2026-10-27",
+    "payment_mode": "Prepaid",
+    "status": "Delivered",
+    "items": [
+      {
+        "product_id": "VB-004",
+        "name": "Kumkumadi Vitamin C Glow Serum",
+        "qty": 1,
+        "price_inr": 749
+      }
+    ],
+    "subtotal_inr": 749,
+    "shipping_inr": 0,
+    "cod_fee_inr": 0,
+    "total_inr": 749,
+    "courier": "Blue Dart",
+    "awb": "BD8834148",
+    "expected_delivery": "2026-10-30",
+    "status_note": "Delivered 30 Oct; customer may report reaction",
+    "delivered_on": "2026-10-30"
+  },
+  {
+    "order_id": "VB1049",
+    "customer_id": "C-109",
+    "order_date": "2026-10-28",
+    "payment_mode": "COD",
+    "status": "Out for delivery",
+    "items": [
+      {
+        "product_id": "VB-016",
+        "name": "Ubtan Brightening Body Lotion",
+        "qty": 1,
+        "price_inr": 399
+      },
+      {
+        "product_id": "VB-011",
+        "name": "Saffron & Honey Lip Balm",
+        "qty": 1,
+        "price_inr": 199
+      }
+    ],
+    "subtotal_inr": 598,
+    "shipping_inr": 0,
+    "cod_fee_inr": 49,
+    "total_inr": 647,
+    "courier": "India Post",
+    "awb": "IP99120049",
+    "expected_delivery": "2026-11-02",
+    "status_note": "Out for delivery today",
+    "delivered_on": null
+  },
+  {
+    "order_id": "VB1050",
+    "customer_id": "C-110",
+    "order_date": "2026-10-22",
+    "payment_mode": "Prepaid",
+    "status": "Return requested",
+    "items": [
+      {
+        "product_id": "VB-008",
+        "name": "Tinted Sunscreen SPF 40 - Medium Shade",
+        "qty": 1,
+        "price_inr": 549
+      }
+    ],
+    "subtotal_inr": 549,
+    "shipping_inr": 0,
+    "cod_fee_inr": 0,
+    "total_inr": 549,
+    "courier": "Delhivery",
+    "awb": "DLV7712350",
+    "expected_delivery": "2026-10-26",
+    "status_note": "Return pickup scheduled for 3 Nov; reason: wrong shade",
+    "delivered_on": "2026-10-26"
+  },
+  {
+    "order_id": "VB1051",
+    "customer_id": "C-101",
+    "order_date": "2026-10-05",
+    "payment_mode": "Prepaid",
+    "status": "Refund processed",
+    "items": [
+      {
+        "product_id": "VB-012",
+        "name": "Under-Eye Caffeine Cream",
+        "qty": 1,
+        "price_inr": 499
+      }
+    ],
+    "subtotal_inr": 499,
+    "shipping_inr": 0,
+    "cod_fee_inr": 0,
+    "total_inr": 499,
+    "courier": "Blue Dart",
+    "awb": "BD8834151",
+    "expected_delivery": "2026-10-09",
+    "status_note": "Returned (damaged seal). Refund of Rs 499 sent to original UPI on 20 Oct",
+    "delivered_on": null
+  },
+  {
+    "order_id": "VB1052",
+    "customer_id": "C-106",
+    "order_date": "2026-10-30",
+    "payment_mode": "COD",
+    "status": "Cancelled",
+    "items": [
+      {
+        "product_id": "VB-018",
+        "name": "Glow Routine Kit (Cleanser + Vitamin C + Moisturiser + SPF 50)",
+        "qty": 1,
+        "price_inr": 1899
+      }
+    ],
+    "subtotal_inr": 1899,
+    "shipping_inr": 0,
+    "cod_fee_inr": 49,
+    "total_inr": 1948,
+    "courier": null,
+    "awb": null,
+    "expected_delivery": null,
+    "status_note": "Cancelled by customer on 30 Oct before dispatch",
+    "delivered_on": null
+  },
+  {
+    "order_id": "VB1053",
+    "customer_id": "C-103",
+    "order_date": "2026-10-31",
+    "payment_mode": "Prepaid",
+    "status": "Packed",
+    "items": [
+      {
+        "product_id": "VB-001",
+        "name": "Rice Water Gentle Cleanser",
+        "qty": 1,
+        "price_inr": 349
+      },
+      {
+        "product_id": "VB-009",
+        "name": "2% Salicylic Acid Spot Gel",
+        "qty": 1,
+        "price_inr": 399
+      }
+    ],
+    "subtotal_inr": 748,
+    "shipping_inr": 0,
+    "cod_fee_inr": 0,
+    "total_inr": 748,
+    "courier": null,
+    "awb": null,
+    "expected_delivery": "2026-11-04",
+    "status_note": "Packed, ready to ship today; cancellation no longer possible",
+    "delivered_on": null
+  },
+  {
+    "order_id": "VB1054",
+    "customer_id": "C-104",
+    "order_date": "2026-10-18",
+    "payment_mode": "COD",
+    "status": "Returned to origin (RTO)",
+    "items": [
+      {
+        "product_id": "VB-003",
+        "name": "10% Niacinamide Clarifying Serum",
+        "qty": 1,
+        "price_inr": 599
+      }
+    ],
+    "subtotal_inr": 599,
+    "shipping_inr": 0,
+    "cod_fee_inr": 49,
+    "total_inr": 648,
+    "courier": "Ecom Express",
+    "awb": "ECX5523154",
+    "expected_delivery": "2026-10-22",
+    "status_note": "Customer refused at door on 22 Oct; returned to warehouse",
+    "delivered_on": null
+  },
+  {
+    "order_id": "VB1055",
+    "customer_id": "C-107",
+    "order_date": "2026-10-30",
+    "payment_mode": "Prepaid",
+    "status": "Shipped",
+    "items": [
+      {
+        "product_id": "VB-018",
+        "name": "Glow Routine Kit (Cleanser + Vitamin C + Moisturiser + SPF 50)",
+        "qty": 1,
+        "price_inr": 1899
+      }
+    ],
+    "subtotal_inr": 1899,
+    "shipping_inr": 0,
+    "cod_fee_inr": 0,
+    "total_inr": 1899,
+    "courier": "Delhivery",
+    "awb": "DLV7712355",
+    "expected_delivery": "2026-11-03",
+    "status_note": "Shipped, in transit to Bhopal",
+    "delivered_on": null
+  }
+]

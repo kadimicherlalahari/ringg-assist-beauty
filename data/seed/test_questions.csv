@@ -1,0 +1,31 @@
+shopper_message,language,intent,expected_tool,should_hand_over,expected_answer_gist
+"I have oily skin with acne marks, budget 800. What should I use?",English,product_recommendation,search_products,No,Niacinamide serum (599) or Acne Control Kit if budget allows; mention sunscreen
+"Mujhe dry skin hai aur face bahut dull lagta hai, kya lu?",Hinglish,product_recommendation,search_products,No,Reply in Hinglish; Vitamin C serum + Ceramide moisturiser or Glow Routine Kit
+Is the vitamin C serum ok for sensitive skin?,English,product_question,search_products,No,Patch test first; suggest Ceramide moisturiser as gentle option
+Can I use retinol while pregnant?,English,safety_question,faq,No,Say avoid retinol and salicylic acid; consult doctor; no medical claims
+Do you have the tinted sunscreen in medium?,English,stock_check,search_products,No,Out of stock; offer to notify or suggest SPF 50
+Is COD available in Gorakhpur?,English,delivery_question,policy,No,"Yes, up to Rs 3,000, Rs 49 fee; nudge PREPAID5"
+DIWALI25 coupon is not working,English,offer_question,offers,No,Explain it expired on 25 Oct; offer WELCOME10 or PREPAID5
+When will I get it if I order today in Kochi?,English,delivery_question,policy,No,Tier 2: 4-6 days
+Where is my order VB1041?,English,order_status,get_order_status,No,"Shipped, in Bengaluru hub, expected 3 Nov"
+"Mera order VB1042 abhi tak nahi aaya, 30 tareekh bola tha",Hinglish,order_status,get_order_status,No,"Apologise; delayed, new date 4 Nov; offer cancel/notify"
+Cancel order VB1046,English,cancel,cancel_order,No,Allowed (Placed); confirm and cancel; refund 5-7 days
+Please cancel VB1053,English,cancel,cancel_order,No,"Not possible, already packed; offer refusal-free return after delivery"
+"I want to return VB1043, it doesn't suit me",English,return,create_return,No,"Inside 7-day window (till 4 Nov); unopened needed unless reaction; create return, pickup in 2-3 days"
+Return VB1047 please,English,return,create_return,No,Window closed 21 Oct; politely decline; offer human if insists
+The vitamin C serum from VB1048 gave me a burning rash,English,adverse_reaction,handover_to_human,Yes,"Stop use, rinse, see doctor if severe; hand over with priority; eligible for return with photo"
+Where is my refund for VB1051?,English,refund_status,get_order_status,No,Refund of Rs 499 sent 20 Oct to UPI; check bank; 5-7 days
+"Delivery guy didn't come, it says failed. VB1045",English,ndr,get_order_status,No,1 attempt left; confirm address/time; reschedule
+This is the third time I'm asking!! Useless service,English,angry,handover_to_human,Yes,"Apologise, hand over immediately with summary"
+Talk to a human please,English,human_request,handover_to_human,Yes,Hand over immediately
+I got a damaged bottle in my order,English,damaged,handover_to_human,Yes,Ask order ID and photo; hand over
+Kya aap ke products cruelty free hai?,Hinglish,faq,faq,No,Yes cruelty-free; mostly vegan
+What's a good night routine for acne?,English,routine,search_products,No,"Cleanser, spot gel, gel moisturiser; retinol later"
+Can I use niacinamide and retinol together?,English,product_question,faq,No,Yes generally; start slow; patch test
+I want to change my address for VB1044,English,address_change,handover_to_human,Yes,Not shipped; human or COD confirmation call updates address
+Can you call me? I don't like typing,English,voice_request,request_callback,No,Trigger Ringg voice callback with chat summary
+Which hair oil for hair fall?,English,product_recommendation,search_products,No,Onion & Bhringraj oil + Rosemary shampoo
+Do you ship to Dubai?,English,faq,faq,No,"No, India only"
+Is there any offer on kits?,English,offer_question,offers,No,GLOWKIT Rs 200 off till 30 Nov
+"I want a refund, I was charged twice",English,payment_dispute,handover_to_human,Yes,Payment dispute: hand over
+Is the spot gel safe for a 13 year old?,English,safety_question,handover_to_human,Yes,Be cautious; suggest consulting dermatologist; offer human

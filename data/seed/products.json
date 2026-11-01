@@ -1,0 +1,521 @@
+[
+  {
+    "product_id": "VB-001",
+    "name": "Rice Water Gentle Cleanser",
+    "category": "Cleanser",
+    "area": "face",
+    "price_inr": 349,
+    "mrp_inr": 399,
+    "size": "100 ml",
+    "skin_types": [
+      "all",
+      "sensitive",
+      "dry"
+    ],
+    "concerns": [
+      "dullness",
+      "daily cleansing"
+    ],
+    "key_ingredients": [
+      "Fermented rice water",
+      "Glycerin"
+    ],
+    "notes": "fragrance-free, soap-free",
+    "how_to_use": "Massage on damp face for 30 seconds, rinse. Morning and night.",
+    "avoid_if": "",
+    "in_stock": true,
+    "cod_available": true,
+    "image_url": "https://placehold.co/600x600?text=VB-001",
+    "product_url": "/products/vb-001"
+  },
+  {
+    "product_id": "VB-002",
+    "name": "Neem & Tea Tree Oil-Control Face Wash",
+    "category": "Cleanser",
+    "area": "face",
+    "price_inr": 299,
+    "mrp_inr": 349,
+    "size": "100 ml",
+    "skin_types": [
+      "oily",
+      "combination"
+    ],
+    "concerns": [
+      "acne",
+      "oil control"
+    ],
+    "key_ingredients": [
+      "Neem",
+      "Tea tree oil",
+      "Salicylic acid 0.5%"
+    ],
+    "notes": "",
+    "how_to_use": "Use twice daily. Avoid eye area.",
+    "avoid_if": "Very dry or broken skin",
+    "in_stock": true,
+    "cod_available": true,
+    "image_url": "https://placehold.co/600x600?text=VB-002",
+    "product_url": "/products/vb-002"
+  },
+  {
+    "product_id": "VB-003",
+    "name": "10% Niacinamide Clarifying Serum",
+    "category": "Serum",
+    "area": "face",
+    "price_inr": 599,
+    "mrp_inr": 699,
+    "size": "30 ml",
+    "skin_types": [
+      "oily",
+      "combination",
+      "normal"
+    ],
+    "concerns": [
+      "acne marks",
+      "open pores",
+      "oil control"
+    ],
+    "key_ingredients": [
+      "Niacinamide 10%",
+      "Zinc PCA 1%"
+    ],
+    "notes": "",
+    "how_to_use": "2-3 drops after cleansing, morning or night.",
+    "avoid_if": "Do not mix with pure Vitamin C in the same routine",
+    "in_stock": true,
+    "cod_available": true,
+    "image_url": "https://placehold.co/600x600?text=VB-003",
+    "product_url": "/products/vb-003"
+  },
+  {
+    "product_id": "VB-004",
+    "name": "Kumkumadi Vitamin C Glow Serum",
+    "category": "Serum",
+    "area": "face",
+    "price_inr": 749,
+    "mrp_inr": 849,
+    "size": "30 ml",
+    "skin_types": [
+      "normal",
+      "dry",
+      "combination"
+    ],
+    "concerns": [
+      "dullness",
+      "pigmentation",
+      "uneven tone"
+    ],
+    "key_ingredients": [
+      "Ethyl ascorbic acid 10%",
+      "Saffron",
+      "Licorice"
+    ],
+    "notes": "",
+    "how_to_use": "Morning, 3 drops, always follow with sunscreen.",
+    "avoid_if": "Very sensitive skin: patch test first",
+    "in_stock": true,
+    "cod_available": true,
+    "image_url": "https://placehold.co/600x600?text=VB-004",
+    "product_url": "/products/vb-004"
+  },
+  {
+    "product_id": "VB-005",
+    "name": "Ceramide Barrier Repair Moisturiser",
+    "category": "Moisturiser",
+    "area": "face",
+    "price_inr": 549,
+    "mrp_inr": 649,
+    "size": "50 g",
+    "skin_types": [
+      "dry",
+      "sensitive",
+      "normal"
+    ],
+    "concerns": [
+      "dryness",
+      "redness",
+      "barrier repair"
+    ],
+    "key_ingredients": [
+      "Ceramides",
+      "Squalane",
+      "Oat extract"
+    ],
+    "notes": "fragrance-free",
+    "how_to_use": "Pea-size amount morning and night.",
+    "avoid_if": "",
+    "in_stock": true,
+    "cod_available": true,
+    "image_url": "https://placehold.co/600x600?text=VB-005",
+    "product_url": "/products/vb-005"
+  },
+  {
+    "product_id": "VB-006",
+    "name": "Aloe & Green Tea Oil-Free Gel Moisturiser",
+    "category": "Moisturiser",
+    "area": "face",
+    "price_inr": 449,
+    "mrp_inr": 499,
+    "size": "50 g",
+    "skin_types": [
+      "oily",
+      "combination",
+      "acne-prone"
+    ],
+    "concerns": [
+      "oil control",
+      "hydration"
+    ],
+    "key_ingredients": [
+      "Aloe vera",
+      "Green tea",
+      "Hyaluronic acid"
+    ],
+    "notes": "non-comedogenic",
+    "how_to_use": "Apply after serum, morning and night.",
+    "avoid_if": "",
+    "in_stock": true,
+    "cod_available": true,
+    "image_url": "https://placehold.co/600x600?text=VB-006",
+    "product_url": "/products/vb-006"
+  },
+  {
+    "product_id": "VB-007",
+    "name": "Ultra-Light Sunscreen SPF 50 PA++++",
+    "category": "Sunscreen",
+    "area": "face",
+    "price_inr": 499,
+    "mrp_inr": 599,
+    "size": "50 g",
+    "skin_types": [
+      "all"
+    ],
+    "concerns": [
+      "sun protection",
+      "tanning"
+    ],
+    "key_ingredients": [
+      "Uvinul A Plus",
+      "Tinosorb S",
+      "Niacinamide"
+    ],
+    "notes": "no white cast",
+    "how_to_use": "Two-finger amount, 15 minutes before sun. Reapply every 3 hours outdoors.",
+    "avoid_if": "",
+    "in_stock": true,
+    "cod_available": true,
+    "image_url": "https://placehold.co/600x600?text=VB-007",
+    "product_url": "/products/vb-007"
+  },
+  {
+    "product_id": "VB-008",
+    "name": "Tinted Sunscreen SPF 40 - Medium Shade",
+    "category": "Sunscreen",
+    "area": "face",
+    "price_inr": 549,
+    "mrp_inr": 649,
+    "size": "40 g",
+    "skin_types": [
+      "normal",
+      "oily",
+      "combination"
+    ],
+    "concerns": [
+      "sun protection",
+      "even tone"
+    ],
+    "key_ingredients": [
+      "Zinc oxide",
+      "Iron oxides"
+    ],
+    "notes": "shades: Light, Medium, Deep",
+    "how_to_use": "Apply as last step of morning routine.",
+    "avoid_if": "",
+    "in_stock": false,
+    "cod_available": true,
+    "image_url": "https://placehold.co/600x600?text=VB-008",
+    "product_url": "/products/vb-008"
+  },
+  {
+    "product_id": "VB-009",
+    "name": "2% Salicylic Acid Spot Gel",
+    "category": "Treatment",
+    "area": "face",
+    "price_inr": 399,
+    "mrp_inr": 449,
+    "size": "15 g",
+    "skin_types": [
+      "oily",
+      "acne-prone"
+    ],
+    "concerns": [
+      "active pimples",
+      "blackheads"
+    ],
+    "key_ingredients": [
+      "Salicylic acid 2%",
+      "Tea tree"
+    ],
+    "notes": "",
+    "how_to_use": "Dab on spots at night only.",
+    "avoid_if": "Pregnant or breastfeeding: consult a doctor; aspirin allergy",
+    "in_stock": true,
+    "cod_available": true,
+    "image_url": "https://placehold.co/600x600?text=VB-009",
+    "product_url": "/products/vb-009"
+  },
+  {
+    "product_id": "VB-010",
+    "name": "0.3% Retinol Night Serum",
+    "category": "Serum",
+    "area": "face",
+    "price_inr": 799,
+    "mrp_inr": 899,
+    "size": "30 ml",
+    "skin_types": [
+      "normal",
+      "oily",
+      "combination"
+    ],
+    "concerns": [
+      "fine lines",
+      "texture",
+      "acne marks"
+    ],
+    "key_ingredients": [
+      "Retinol 0.3%",
+      "Bakuchiol"
+    ],
+    "notes": "",
+    "how_to_use": "Night only, 2-3 times a week to start. Use sunscreen next day.",
+    "avoid_if": "Pregnant or breastfeeding; do not use with acids on the same night",
+    "in_stock": true,
+    "cod_available": true,
+    "image_url": "https://placehold.co/600x600?text=VB-010",
+    "product_url": "/products/vb-010"
+  },
+  {
+    "product_id": "VB-011",
+    "name": "Saffron & Honey Lip Balm",
+    "category": "Lip care",
+    "area": "lips",
+    "price_inr": 199,
+    "mrp_inr": 249,
+    "size": "10 g",
+    "skin_types": [
+      "all"
+    ],
+    "concerns": [
+      "chapped lips"
+    ],
+    "key_ingredients": [
+      "Saffron",
+      "Honey",
+      "Shea butter"
+    ],
+    "notes": "",
+    "how_to_use": "Apply as needed.",
+    "avoid_if": "",
+    "in_stock": true,
+    "cod_available": true,
+    "image_url": "https://placehold.co/600x600?text=VB-011",
+    "product_url": "/products/vb-011"
+  },
+  {
+    "product_id": "VB-012",
+    "name": "Under-Eye Caffeine Cream",
+    "category": "Eye care",
+    "area": "eyes",
+    "price_inr": 499,
+    "mrp_inr": 549,
+    "size": "15 g",
+    "skin_types": [
+      "all"
+    ],
+    "concerns": [
+      "dark circles",
+      "puffiness"
+    ],
+    "key_ingredients": [
+      "Caffeine 3%",
+      "Peptides"
+    ],
+    "notes": "",
+    "how_to_use": "Tap gently around eyes, night.",
+    "avoid_if": "",
+    "in_stock": true,
+    "cod_available": true,
+    "image_url": "https://placehold.co/600x600?text=VB-012",
+    "product_url": "/products/vb-012"
+  },
+  {
+    "product_id": "VB-013",
+    "name": "Onion & Bhringraj Hair Oil",
+    "category": "Hair oil",
+    "area": "hair",
+    "price_inr": 399,
+    "mrp_inr": 449,
+    "size": "200 ml",
+    "skin_types": [
+      "all hair"
+    ],
+    "concerns": [
+      "hair fall",
+      "dry scalp"
+    ],
+    "key_ingredients": [
+      "Red onion",
+      "Bhringraj",
+      "Coconut oil"
+    ],
+    "notes": "",
+    "how_to_use": "Massage into scalp 2 hours before wash, 2-3 times a week.",
+    "avoid_if": "",
+    "in_stock": true,
+    "cod_available": true,
+    "image_url": "https://placehold.co/600x600?text=VB-013",
+    "product_url": "/products/vb-013"
+  },
+  {
+    "product_id": "VB-014",
+    "name": "Rosemary & Biotin Anti-Hairfall Shampoo",
+    "category": "Shampoo",
+    "area": "hair",
+    "price_inr": 449,
+    "mrp_inr": 499,
+    "size": "250 ml",
+    "skin_types": [
+      "all hair",
+      "oily scalp"
+    ],
+    "concerns": [
+      "hair fall",
+      "oily scalp"
+    ],
+    "key_ingredients": [
+      "Rosemary",
+      "Biotin"
+    ],
+    "notes": "sulphate-free",
+    "how_to_use": "Lather on wet hair, rinse. Use 3 times a week.",
+    "avoid_if": "",
+    "in_stock": true,
+    "cod_available": true,
+    "image_url": "https://placehold.co/600x600?text=VB-014",
+    "product_url": "/products/vb-014"
+  },
+  {
+    "product_id": "VB-015",
+    "name": "Argan Repair Conditioner",
+    "category": "Conditioner",
+    "area": "hair",
+    "price_inr": 449,
+    "mrp_inr": 499,
+    "size": "200 ml",
+    "skin_types": [
+      "dry hair",
+      "frizzy"
+    ],
+    "concerns": [
+      "frizz",
+      "dryness"
+    ],
+    "key_ingredients": [
+      "Argan oil",
+      "Keratin protein"
+    ],
+    "notes": "silicone-free",
+    "how_to_use": "Apply to lengths, leave 2 minutes, rinse.",
+    "avoid_if": "",
+    "in_stock": true,
+    "cod_available": true,
+    "image_url": "https://placehold.co/600x600?text=VB-015",
+    "product_url": "/products/vb-015"
+  },
+  {
+    "product_id": "VB-016",
+    "name": "Ubtan Brightening Body Lotion",
+    "category": "Body care",
+    "area": "body",
+    "price_inr": 399,
+    "mrp_inr": 449,
+    "size": "200 ml",
+    "skin_types": [
+      "all"
+    ],
+    "concerns": [
+      "dry skin",
+      "tan"
+    ],
+    "key_ingredients": [
+      "Turmeric",
+      "Sandalwood",
+      "Shea butter"
+    ],
+    "notes": "",
+    "how_to_use": "Apply after bath.",
+    "avoid_if": "",
+    "in_stock": true,
+    "cod_available": true,
+    "image_url": "https://placehold.co/600x600?text=VB-016",
+    "product_url": "/products/vb-016"
+  },
+  {
+    "product_id": "VB-017",
+    "name": "Acne Control Kit (Face Wash + Niacinamide + Gel Moisturiser + Spot Gel)",
+    "category": "Kit",
+    "area": "face",
+    "price_inr": 1399,
+    "mrp_inr": 1746,
+    "size": "4 items",
+    "skin_types": [
+      "oily",
+      "acne-prone"
+    ],
+    "concerns": [
+      "acne",
+      "acne marks"
+    ],
+    "key_ingredients": [
+      "Salicylic acid",
+      "Niacinamide",
+      "Tea tree"
+    ],
+    "notes": "bundle saves 20%",
+    "how_to_use": "Morning: wash, niacinamide, gel, sunscreen. Night: wash, spot gel, gel.",
+    "avoid_if": "",
+    "in_stock": true,
+    "cod_available": true,
+    "image_url": "https://placehold.co/600x600?text=VB-017",
+    "product_url": "/products/vb-017"
+  },
+  {
+    "product_id": "VB-018",
+    "name": "Glow Routine Kit (Cleanser + Vitamin C + Moisturiser + SPF 50)",
+    "category": "Kit",
+    "area": "face",
+    "price_inr": 1899,
+    "mrp_inr": 2296,
+    "size": "4 items",
+    "skin_types": [
+      "normal",
+      "dry",
+      "combination"
+    ],
+    "concerns": [
+      "dullness",
+      "pigmentation"
+    ],
+    "key_ingredients": [
+      "Vitamin C",
+      "Ceramides"
+    ],
+    "notes": "bundle saves 17%",
+    "how_to_use": "Morning: cleanser, vitamin C, moisturiser, SPF.",
+    "avoid_if": "",
+    "in_stock": true,
+    "cod_available": true,
+    "image_url": "https://placehold.co/600x600?text=VB-018",
+    "product_url": "/products/vb-018"
+  }
+]

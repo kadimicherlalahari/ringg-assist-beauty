@@ -1,0 +1,34 @@
+[
+  {
+    "code": "WELCOME10",
+    "description": "10% off on first order",
+    "min_order_inr": 499,
+    "max_discount_inr": 150,
+    "valid_till": "2026-12-31",
+    "prepaid_only": false
+  },
+  {
+    "code": "PREPAID5",
+    "description": "Extra 5% off when you pay online (UPI or card)",
+    "min_order_inr": 0,
+    "max_discount_inr": 100,
+    "valid_till": "2026-12-31",
+    "prepaid_only": true
+  },
+  {
+    "code": "GLOWKIT",
+    "description": "Flat Rs 200 off on any kit",
+    "min_order_inr": 1399,
+    "max_discount_inr": 200,
+    "valid_till": "2026-11-30",
+    "prepaid_only": false
+  },
+  {
+    "code": "DIWALI25",
+    "description": "Diwali sale 25% off - expired",
+    "min_order_inr": 999,
+    "max_discount_inr": 400,
+    "valid_till": "2026-10-25",
+    "prepaid_only": false
+  }
+]
